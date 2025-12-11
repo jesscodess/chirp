@@ -2,7 +2,7 @@ import HeaderBird from './assets/header-bird.png'
 import Search from './components/Search'
 import styled from 'styled-components'
 
-function App() {
+function Home() {
   return (
     <>
         <Wrapper>
@@ -36,6 +36,4 @@ const Wrapper = styled.div`
   }
 `;
 
-export default App
-
-//TODO: logo/nav to home
+export default Home
