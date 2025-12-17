@@ -1,6 +1,8 @@
-import HeaderBird from './assets/header-bird.png'
 import Search from './components/Search'
+import HeaderBird from './assets/header-bird.png'
 import styled from 'styled-components'
+import { BrowserRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function App() {
   return (

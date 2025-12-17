@@ -1,13 +1,14 @@
 import Home from './Home'
+import Searched from './Searched'
 import BirdInfoPage from './BirdInfoPage'
-import Results from './Results'
+import { Route, Routes } from 'react-router-dom'
 
 function Pages() {
   return (
     <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/bird/:id" element={<BirdInfoPage />} />
-          <Route path="/results/:search" element={<Results />} />
+          <Route path="/searched/:search" element={<Searched />} />
+          <Route path="/bird/:name" element={<BirdInfoPage />} />
       </Routes>
   )
 }
